@@ -1,0 +1,46 @@
+.container{
+    position: relative;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+body{
+    font-size: 1.3em;
+    font-family: 'work sans', sans-serif;
+}
+nav{
+    margin: 0% auto;
+    padding: 0.1% 0%;
+    margin-right: 0%;
+}
+nav>ul{
+    text-align: right;
+}
+ul>li{
+    display: inline;
+}
+ul>li>a{
+    text-transform: uppercase;
+    padding: 20%;
+    text-decoration: none;
+    color: rgba(red, green, blue, alpha);
+}
+ul>li>:hoover{
+    box-shadow: 0 0 0 0.625em rgba(0, 0, 0, 0.1);
+    background-color: rgba(red, green, blue, alpha);
+}
+#slogan{
+    color: blue;
+}
+#scholar>h3{
+    color: green;
+}
+#activities{
+    color: orange;
+}
+#classes{
+    color: blueviolet;
+}
